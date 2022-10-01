@@ -1,0 +1,15 @@
+#station-list{
+    margin: auto;
+    margin-top: 50px;
+    max-width: 1000px;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+#station-list #results{
+    width: 100%;
+}

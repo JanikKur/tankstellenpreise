@@ -1,0 +1,28 @@
+.loading-screen{
+    margin: auto;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.loading-screen::after{
+    content: "";
+    animation: loading 2s linear infinite;
+}
+
+@keyframes loading {
+    0%{
+        content: "";
+    }
+
+    33%{
+        content: ".";
+    }
+
+    66%{
+        content: "..";
+    }
+
+    100%{
+        content: "...";
+    }
+}
